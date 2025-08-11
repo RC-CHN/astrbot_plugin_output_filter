@@ -1,0 +1,13 @@
+{
+    "enable_output_filter": {
+        "description": "是否启用输出过滤器",
+        "type": "bool",
+        "default": true
+    },
+    "filter_pattern": {
+        "description": "用于匹配和过滤消息的正则表达式",
+        "type": "string",
+        "hint": "请在此处输入正则表达式",
+        "default": ""
+    }
+}
