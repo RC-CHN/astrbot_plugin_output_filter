@@ -1,9 +1,9 @@
-# helloworld
+# 输出过滤器插件 (Output Filter Plugin)
 
-AstrBot 插件模板
+这是一个为 astrbot 设计的插件，它允许用户通过配置正则表达式来过滤和修改机器人的文本输出。
 
-A template plugin for AstrBot plugin feature
+## 功能
 
-# 支持
-
-[帮助文档](https://astrbot.app)
+- 根据用户定义的正则表达式模式过滤机器人的传出消息。
+- 可以启用或禁用过滤功能。
+- 无效的正则表达式将被记录，并且不会中断机器人运行。
