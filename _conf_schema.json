@@ -9,5 +9,10 @@
         "type": "string",
         "hint": "请在此处输入正则表达式",
         "default": ""
+    },
+    "filter_proactive_messages": {
+        "description": "是否同时过滤通过 send_message_to_user 等主动发送接口发出的消息（如后台任务、定时任务通知）",
+        "type": "bool",
+        "default": true
     }
 }
